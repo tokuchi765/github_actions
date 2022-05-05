@@ -19,4 +19,4 @@ jobs:
       run: go get -v -t -d ./...
 
     - name: Test code
-      run: go test -v .\src\backend\
+      run: go test -v ./src/backend/
