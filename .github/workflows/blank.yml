@@ -9,6 +9,7 @@ jobs:
       - uses: actions/checkout@v1 
       - name: yarn install
         run: yarn install
+        working-directory: ./src/frontend/
       - name: Run Test
         run: yarn test
         working-directory: ./src/frontend/
